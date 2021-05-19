@@ -1,0 +1,6 @@
+# ninja log v5
+1	1166	6431503637870546	BigHW_autogen/timestamp	5cc4c3b2327e9d64
+1169	3927	6431503665196757	CMakeFiles/BigHW.dir/BigHW_autogen/mocs_compilation.cpp.obj	92c946e2fe10d6fc
+1166	4023	6431503666314970	CMakeFiles/BigHW.dir/main.cpp.obj	bee34caeea4729b
+1171	4158	6431503667732694	CMakeFiles/BigHW.dir/mainwindow.cpp.obj	253b217742573c16
+4158	4930	6431503675441527	BigHW.exe	93e9ad0fe92605a9
