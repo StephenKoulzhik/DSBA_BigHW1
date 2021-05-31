@@ -1,4 +1,4 @@
-C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.h \
+C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/EWIEGA46WW/moc_gamesmodel.cpp: C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/gamesmodel.h \
   C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/moc_predefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QList \
@@ -15,20 +15,16 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qconfig.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qhash.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
@@ -37,16 +33,10 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qpair.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qpoint.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsize.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
@@ -61,50 +51,16 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/QBrush \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfont.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qimage.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpalette.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixelformat.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixmap.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpolygon.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qregion.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgb.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/atomic \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
@@ -142,9 +98,6 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
@@ -161,7 +114,6 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_raw_storage_iter.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
@@ -173,8 +125,6 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
@@ -189,7 +139,6 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/concurrence.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
@@ -203,7 +152,6 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/list \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/optional \
@@ -231,7 +179,6 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -264,5 +211,4 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/tablemodel.h
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h

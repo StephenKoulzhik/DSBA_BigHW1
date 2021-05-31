@@ -1,5 +1,5 @@
 {
-	"BUILD_DIR" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen",
+	"BUILD_DIR" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ModelView_autogen",
 	"CMAKE_BINARY_DIR" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
 	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW",
@@ -65,29 +65,29 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.19/Modules/CMakeParseArguments.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW",
-	"DEP_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/deps",
-	"DEP_FILE_RULE_NAME" : "BigHW_autogen/timestamp",
+	"DEP_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ModelView_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "ModelView_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/gameStructure.h",
+			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/game_structure.h",
 			"MU",
-			"EWIEGA46WW/moc_gameStructure.cpp"
+			"EWIEGA46WW/moc_game_structure.cpp"
+		],
+		[
+			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/gamesmodel.h",
+			"MU",
+			"EWIEGA46WW/moc_gamesmodel.cpp"
 		],
 		[
 			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp"
-		],
-		[
-			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/tablemodel.h",
-			"MU",
-			"EWIEGA46WW/moc_tablemodel.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ModelView_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ModelView_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -124,17 +124,17 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ModelView_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/BigHW_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/ModelView_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/BigHW_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/ModelView_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
@@ -143,10 +143,6 @@
 		],
 		[
 			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/tablemodel.cpp",
 			"MU"
 		]
 	],

@@ -1,4 +1,4 @@
-C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.h \
+C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/EWIEGA46WW/moc_tablemodel.cpp: C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/tablemodel.h \
   C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/moc_predefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QList \
@@ -64,16 +64,9 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtGui/QBrush \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfont.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qimage.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpalette.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixelformat.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixmap.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qpolygon.h \
@@ -85,13 +78,6 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
@@ -264,5 +250,4 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/tablemodel.h
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
