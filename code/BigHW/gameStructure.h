@@ -63,7 +63,6 @@ vector<Game> fillVec()
 
     qDebug() << QString::fromStdString(s);
     qDebug() << QString::fromStdString(res[0].title);
-    qDebug() << "Yebal Rot Qt";
     return res;
 }
 #endif // GAMESTRUCTURE_H
