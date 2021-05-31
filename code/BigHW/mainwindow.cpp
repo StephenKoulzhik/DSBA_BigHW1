@@ -4,7 +4,7 @@
 #include <QFile>
 #include <QTextStream>
 #include <QStandardItemModel>
-
+#include <QString>
 void fillTable(tablemodel* myModel)
 {
     QFile inputFile("C:\\Users\\steph\\Documents\\GitHub\\DSBA_BigHW1\\code\\BigHW\\android-games.csv");
@@ -59,3 +59,15 @@ MainWindow::~MainWindow()
 //{
 //    ui -> label -> setText("");
 //}
+
+int MainWindow::on_tableView_clicked(const QModelIndex &index)
+{
+    return 5;
+}
+
+
+
+void MainWindow::on_helpButton_clicked()
+{
+    ui -> label_3 -> setText(QString::number(MainWindow::on_tableView_clicked(index)));
+}

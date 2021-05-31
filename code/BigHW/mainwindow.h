@@ -17,12 +17,14 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_tableView_entered(const QModelIndex &index);
 
-    void on_tableView_doubleClicked(const QModelIndex &index);
+    int on_tableView_clicked(const QModelIndex &index);
+
+    void on_helpButton_clicked();
 
 private:
     Ui::MainWindow *ui;
     tablemodel *myTableModel;
+    QModelIndex index;
 };
 #endif // MAINWINDOW_H
