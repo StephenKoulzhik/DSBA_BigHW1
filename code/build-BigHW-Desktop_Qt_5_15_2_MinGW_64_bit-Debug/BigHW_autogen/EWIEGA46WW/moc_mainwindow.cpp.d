@@ -2,7 +2,11 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/moc_predefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QList \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QSortFilterProxyModel \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QTransposeProxyModel \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractproxymodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
@@ -42,11 +46,13 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsize.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsortfilterproxymodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
@@ -56,6 +62,7 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtransposeproxymodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \

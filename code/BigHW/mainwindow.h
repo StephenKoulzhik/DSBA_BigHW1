@@ -3,7 +3,8 @@
 
 #include <QMainWindow>
 #include "tablemodel.h"
-
+#include <QTransposeProxyModel>
+#include <QSortFilterProxyModel>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -18,13 +19,19 @@ public:
 
 private slots:
 
-    int on_tableView_clicked(const QModelIndex &index);
+    void on_tableView_clicked(const QModelIndex &index);
 
     void on_helpButton_clicked();
+
+    void onTableViewCurrentChanged(QModelIndex next, QModelIndex hahaUselessGuy);
 
 private:
     Ui::MainWindow *ui;
     tablemodel *myTableModel;
-    QModelIndex index;
+    const QModelIndex currentSelection;
+
+    QTransposeProxyModel *transposeModel;
+    QSortFilterProxyModel *sortingModel;
+
 };
 #endif // MAINWINDOW_H

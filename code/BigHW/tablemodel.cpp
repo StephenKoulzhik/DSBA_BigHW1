@@ -26,7 +26,7 @@ int tablemodel::columnCount(const QModelIndex &parent) const
     return Data[0].size();
 }
 
-void tablemodel::addRow(QList<QString> Row)
+void tablemodel::addRow(QList<QVariant> Row)
 {
     bool emptyTable = false;
     // If our table is empty we add empty columns
@@ -49,14 +49,24 @@ QVariant tablemodel::data(const QModelIndex &index, int role) const
         return QVariant();
     int row = index.row();
     int column = index.column();
-    if (role == Qt::DisplayRole || role == Qt::EditRole)
-    {
-        return Data.at(row).at(column);
-    }
-    else if (role == Qt::BackgroundRole)
-    {
 
+    if (role == Qt::DisplayRole || role == Qt::EditRole)
+        return Data.at(row).at(column);
+    else if (role == Qt::BackgroundRole)
         return QBrush(Qt::white);
+
+    return QVariant();
+}
+
+QVariant tablemodel::headerData(int column, Qt::Orientation orientation, int role) const
+{
+    if (role == Qt::DisplayRole && column >= 0 && !headers.empty())
+    {
+        if (orientation == Qt::Orientation::Horizontal && column < 7)
+            return headers.at(column);
+        else
+            return column++;
     }
     return QVariant();
 }
+

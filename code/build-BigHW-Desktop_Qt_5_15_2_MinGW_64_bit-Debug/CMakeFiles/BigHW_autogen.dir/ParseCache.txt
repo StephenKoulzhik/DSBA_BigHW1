@@ -5,7 +5,11 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.h
  mdp:C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/moc_predefs.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QList
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QSortFilterProxyModel
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QTransposeProxyModel
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractproxymodel.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h
@@ -45,11 +49,13 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsize.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsortfilterproxymodel.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringlist.h
@@ -59,6 +65,7 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qtransposeproxymodel.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h
@@ -275,6 +282,7 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/tablemodel.h
  mdp:C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/moc_predefs.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QList
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h

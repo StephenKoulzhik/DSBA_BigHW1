@@ -2,6 +2,7 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/moc_predefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QList \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \

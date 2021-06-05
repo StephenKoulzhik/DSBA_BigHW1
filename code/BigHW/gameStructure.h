@@ -18,7 +18,7 @@ struct Game
 vector<Game> fillVec()
 {
     vector<Game> res;
-    fstream in("C:\\Users\\steph\\Documents\\GitHub\\DSBA_BigHW1\\code\\BigHW\\android-games.csv");
+    fstream in("android-games.csv");
     string s;
 
     getline(in, s);
