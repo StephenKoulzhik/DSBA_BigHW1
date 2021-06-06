@@ -70,9 +70,19 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/customfilter.h",
+			"MU",
+			"EWIEGA46WW/moc_customfilter.cpp"
+		],
+		[
 			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/gameStructure.h",
 			"MU",
 			"EWIEGA46WW/moc_gameStructure.cpp"
+		],
+		[
+			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/infoabout.h",
+			"MU",
+			"EWIEGA46WW/moc_infoabout.cpp"
 		],
 		[
 			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.h",
@@ -137,6 +147,14 @@
 	"SETTINGS_FILE" : "C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/BigHW_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/customfilter.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/infoabout.cpp",
+			"MU"
+		],
 		[
 			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/main.cpp",
 			"MU"

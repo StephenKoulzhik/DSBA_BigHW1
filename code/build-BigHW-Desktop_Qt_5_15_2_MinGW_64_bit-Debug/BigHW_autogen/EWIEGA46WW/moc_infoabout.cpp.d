@@ -1,12 +1,5 @@
-C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.h \
+C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/EWIEGA46WW/moc_infoabout.cpp: C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/infoabout.h \
   C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/moc_predefs.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QList \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QSortFilterProxyModel \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QTransposeProxyModel \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractproxymodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
@@ -27,13 +20,10 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qhash.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qitemselectionmodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qlocale.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
@@ -48,14 +38,11 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qset.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsize.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsortfilterproxymodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
@@ -65,20 +52,16 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtransposeproxymodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/QBrush \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qfont.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qimage.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
@@ -93,26 +76,11 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qvalidator.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QListView \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractitemview.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractslider.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractspinbox.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlistview.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qrubberband.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QDialog \
+  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qslider.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qstyle.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qstyleoption.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabbar.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
@@ -288,6 +256,4 @@ C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_M
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/customfilter.h \
-  C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/tablemodel.h
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h

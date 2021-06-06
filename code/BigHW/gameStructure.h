@@ -41,6 +41,7 @@ vector<Game> fillVec()
         anotherOne.rank = stoi(arr[0]);
         anotherOne.title = arr[1];
         anotherOne.ratingsCounter = stoi(arr[2]);
+
         if (arr[3].find('M') != string::npos)
         {
             string chislo = arr[3].substr(0, arr[3].find(' '));

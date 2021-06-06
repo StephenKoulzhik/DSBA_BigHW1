@@ -16,7 +16,9 @@ public:
     void addRow(QList<QVariant> newRow);
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QVariant headerData(int column, Qt::Orientation orientation, int role = Qt::DisplayRole) const override;
-
+    QList<QList<QVariant>> getData() const;
+    void deleteRow(int index);
+    void download(QString path);
 
 //    bool setData(const QModelIndex &index, const QVariant &value, int role = Qt::EditRole) override;
 //    Qt::ItemFlags flags(const QModelIndex &index) const override;

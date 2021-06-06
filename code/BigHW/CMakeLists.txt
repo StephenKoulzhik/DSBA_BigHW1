@@ -35,6 +35,11 @@ set(PROJECT_SOURCES
         gameStructure.h
         tablemodel.h
         tablemodel.cpp
+        customfilter.h
+        customfilter.cpp
+        infoabout.cpp
+        infoabout.h
+        infoabout.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

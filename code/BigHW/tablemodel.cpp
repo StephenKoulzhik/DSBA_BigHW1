@@ -1,5 +1,6 @@
 #include "tablemodel.h"
-
+#include <QFile>
+#include <QTextStream>
 tablemodel::tablemodel(QObject *parent)
     : QAbstractTableModel(parent)
 {
@@ -60,7 +61,7 @@ QVariant tablemodel::data(const QModelIndex &index, int role) const
 
 QVariant tablemodel::headerData(int column, Qt::Orientation orientation, int role) const
 {
-    if (role == Qt::DisplayRole && column >= 0 && !headers.empty())
+    if (role == Qt::DisplayRole && column >= 0)
     {
         if (orientation == Qt::Orientation::Horizontal && column < 7)
             return headers.at(column);
@@ -70,3 +71,33 @@ QVariant tablemodel::headerData(int column, Qt::Orientation orientation, int rol
     return QVariant();
 }
 
+QList<QList<QVariant>> tablemodel::getData() const
+{
+    return Data;
+}
+
+void tablemodel::deleteRow(int index)
+{
+    beginRemoveRows(QModelIndex(), index, index);
+    Data.removeAt(index);
+    endRemoveRows();
+}
+
+
+void tablemodel::download(QString path)
+{
+    QFile downloadFile(path);
+    downloadFile.open(QIODevice::ReadWrite | QIODevice::Truncate | QIODevice::Text);
+    QTextStream write(&downloadFile);
+
+    for (int i = 0; i < rowCount(); ++i)
+    {
+        for (QVariant x : Data[i])
+        {
+            write << x.toString()<<',';
+        }
+
+        write << '\n';
+    }
+    downloadFile.close();
+}

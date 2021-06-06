@@ -1,13 +1,15 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "gameStructure.h"
+#include "infoabout.h"
 #include <QFile>
 #include <QTextStream>
 #include <QStandardItemModel>
 #include <QString>
-void fillTable(tablemodel* myModel)
+#include <QFileDialog>
+void fillTable(tablemodel* myModel, QString path)
 {
-    QFile inputFile("C:\\Users\\steph\\Documents\\GitHub\\DSBA_BigHW1\\code\\BigHW\\android-games.csv");
+    QFile inputFile(path);
     inputFile.open(QFile::ReadOnly);
     QTextStream input(&inputFile);
 
@@ -60,19 +62,28 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    QString path = QFileDialog::getOpenFileName(this);
     ui->setupUi(this);
     myTableModel = new tablemodel(this);
     ui->tableView->setModel(myTableModel);
-    fillTable(myTableModel);
+    fillTable(myTableModel, path);
 
     transposeModel = new QTransposeProxyModel(this);
     transposeModel -> setSourceModel(myTableModel);
 
     sortingModel = new QSortFilterProxyModel(this);
     sortingModel -> setSourceModel(myTableModel);
+    sortingModel -> setFilterCaseSensitivity(Qt::CaseInsensitive);
 
     ui -> tableView -> setModel(sortingModel);
     ui -> tableView -> setSortingEnabled(true);
+
+
+    favList = new tablemodel(this);
+    ui -> listView -> setModel(favList);
+    ui -> listView -> setModelColumn(1);
+
+
 
     connect(ui->tableView->selectionModel(),
             SIGNAL(currentChanged(QModelIndex,QModelIndex)),
@@ -80,6 +91,11 @@ MainWindow::MainWindow(QWidget *parent)
             SLOT(onTableViewCurrentChanged(QModelndex,QModelIndex)));
 
 
+
+    ui -> comboBox -> addItems({"Rank", "Title", "Total number \nof Ratings", "Install\nMilestone", "Rating", "Price", "Perfect Scores"});
+
+    kusokgovna = new customFilterModel(this);
+    kusokgovna -> setSourceModel(myTableModel);
 }
 
 MainWindow::~MainWindow()
@@ -99,14 +115,50 @@ void MainWindow::onTableViewCurrentChanged(QModelIndex next, QModelIndex hahaUse
 
 }
 
-//void MainWindow::on_tableView_clicked(const QModelIndex &index)
-//{
-//   currentSelection = index;
-//}
+
+void MainWindow::on_filteringButton_clicked()
+{
+    int filteringColumn = ui -> comboBox -> currentIndex();
+    sortingModel -> setFilterKeyColumn(filteringColumn);
+    sortingModel -> setFilterWildcard(ui -> lineEdit -> text());
+
+    kusokgovna -> setFilterKeyColumn(filteringColumn);
+    kusokgovna -> setFilterFixedString(ui -> lineEdit -> text());
+}
+
+void MainWindow::on_addButton_clicked()
+{
+    QModelIndexList list = ui -> tableView -> selectionModel() -> selectedIndexes();
+    if (!list.isEmpty())
+    {
+        QList<QVariant> extra = myTableModel->getData()[sortingModel -> mapToSource(list[0]).row()];
+        favList->addRow({extra[1]});
+    }
+
+}
 
 
+void MainWindow::on_removeButton_clicked()
+{
+    QModelIndexList list = ui -> listView -> selectionModel() -> selectedIndexes();
+    if (!list.isEmpty())
+    {
+        favList->deleteRow(list.first().row());
+    }
+}
 
-//void MainWindow::on_helpButton_clicked()
-//{
-//    ui -> label_3 -> setText(QString::number(MainWindow::on_tableView_clicked(index)));
-//}
+void MainWindow::on_downloadButton_clicked()
+{
+    QString path = QFileDialog::getSaveFileName(this);
+    favList -> download(path);
+}
+
+
+void MainWindow::on_actionAbout_triggered()
+{
+    infoabout aboutwindow;
+    aboutwindow.setModal(true); //Random Indian guy told me to write this line in his guide
+//    so I trusted him 'cause I can only trust Indian guys on Youtube when mastering this programm
+    //Hello guys Im under the water
+    aboutwindow.exec();
+}

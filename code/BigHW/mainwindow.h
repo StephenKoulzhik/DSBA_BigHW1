@@ -5,6 +5,8 @@
 #include "tablemodel.h"
 #include <QTransposeProxyModel>
 #include <QSortFilterProxyModel>
+#include "customfilter.h"
+#include <QListView>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -19,19 +21,27 @@ public:
 
 private slots:
 
-    void on_tableView_clicked(const QModelIndex &index);
-
-    void on_helpButton_clicked();
 
     void onTableViewCurrentChanged(QModelIndex next, QModelIndex hahaUselessGuy);
+
+    void on_filteringButton_clicked();
+
+    void on_addButton_clicked();
+
+    void on_removeButton_clicked();
+
+    void on_downloadButton_clicked();
+
+    void on_actionAbout_triggered();
 
 private:
     Ui::MainWindow *ui;
     tablemodel *myTableModel;
     const QModelIndex currentSelection;
+    tablemodel *favList;
 
     QTransposeProxyModel *transposeModel;
     QSortFilterProxyModel *sortingModel;
-
+    customFilterModel *kusokgovna;
 };
 #endif // MAINWINDOW_H

@@ -75,6 +75,22 @@ build CMakeFiles/BigHW.dir/tablemodel.cpp.obj: CXX_COMPILER__BigHW_Debug C$:/Use
   OBJECT_DIR = CMakeFiles\BigHW.dir
   OBJECT_FILE_DIR = CMakeFiles\BigHW.dir
 
+build CMakeFiles/BigHW.dir/customfilter.cpp.obj: CXX_COMPILER__BigHW_Debug C$:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/customfilter.cpp || cmake_object_order_depends_target_BigHW
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles\BigHW.dir\customfilter.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  INCLUDES = -I. -IC:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW -IBigHW_autogen/include -isystem C:/Qt/5.15.2/mingw81_64/include -isystem C:/Qt/5.15.2/mingw81_64/include/QtWidgets -isystem C:/Qt/5.15.2/mingw81_64/include/QtGui -isystem C:/Qt/5.15.2/mingw81_64/include/QtANGLE -isystem C:/Qt/5.15.2/mingw81_64/include/QtCore -isystem C:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\BigHW.dir
+  OBJECT_FILE_DIR = CMakeFiles\BigHW.dir
+
+build CMakeFiles/BigHW.dir/infoabout.cpp.obj: CXX_COMPILER__BigHW_Debug C$:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/infoabout.cpp || cmake_object_order_depends_target_BigHW
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles\BigHW.dir\infoabout.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  INCLUDES = -I. -IC:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW -IBigHW_autogen/include -isystem C:/Qt/5.15.2/mingw81_64/include -isystem C:/Qt/5.15.2/mingw81_64/include/QtWidgets -isystem C:/Qt/5.15.2/mingw81_64/include/QtGui -isystem C:/Qt/5.15.2/mingw81_64/include/QtANGLE -isystem C:/Qt/5.15.2/mingw81_64/include/QtCore -isystem C:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\BigHW.dir
+  OBJECT_FILE_DIR = CMakeFiles\BigHW.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BigHW
@@ -83,7 +99,7 @@ build CMakeFiles/BigHW.dir/tablemodel.cpp.obj: CXX_COMPILER__BigHW_Debug C$:/Use
 #############################################
 # Link the executable BigHW.exe
 
-build BigHW.exe: CXX_EXECUTABLE_LINKER__BigHW_Debug CMakeFiles/BigHW.dir/BigHW_autogen/mocs_compilation.cpp.obj CMakeFiles/BigHW.dir/main.cpp.obj CMakeFiles/BigHW.dir/mainwindow.cpp.obj CMakeFiles/BigHW.dir/tablemodel.cpp.obj | C$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Gui.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a || BigHW_autogen BigHW_autogen_timestamp_deps
+build BigHW.exe: CXX_EXECUTABLE_LINKER__BigHW_Debug CMakeFiles/BigHW.dir/BigHW_autogen/mocs_compilation.cpp.obj CMakeFiles/BigHW.dir/main.cpp.obj CMakeFiles/BigHW.dir/mainwindow.cpp.obj CMakeFiles/BigHW.dir/tablemodel.cpp.obj CMakeFiles/BigHW.dir/customfilter.cpp.obj CMakeFiles/BigHW.dir/infoabout.cpp.obj | C$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Gui.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a || BigHW_autogen BigHW_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = C:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a  C:/Qt/5.15.2/mingw81_64/lib/libQt5Gui.a  C:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BigHW.dir
