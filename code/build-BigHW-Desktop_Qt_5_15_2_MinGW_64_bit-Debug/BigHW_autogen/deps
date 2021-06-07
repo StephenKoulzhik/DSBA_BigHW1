@@ -98,6 +98,7 @@ BigHW_autogen/timestamp: \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QDialog \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QListView \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractitemview.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
@@ -344,6 +345,7 @@ BigHW_autogen/timestamp: \
 	C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/customfilter.h \
 	C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/infoabout.h \
 	C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.h \
+	C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mylogo.h \
 	C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/tablemodel.h \
 	C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/BigHW_autogen/moc_predefs.h \
 	C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/build-BigHW-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake \

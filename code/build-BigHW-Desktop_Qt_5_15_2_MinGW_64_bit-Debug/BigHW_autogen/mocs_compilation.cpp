@@ -2,4 +2,5 @@
 #include "EWIEGA46WW/moc_customfilter.cpp"
 #include "EWIEGA46WW/moc_infoabout.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
+#include "EWIEGA46WW/moc_mylogo.cpp"
 #include "EWIEGA46WW/moc_tablemodel.cpp"

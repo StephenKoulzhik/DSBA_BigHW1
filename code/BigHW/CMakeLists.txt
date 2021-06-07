@@ -40,6 +40,8 @@ set(PROJECT_SOURCES
         infoabout.cpp
         infoabout.h
         infoabout.ui
+        mylogo.h
+        mylogo.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

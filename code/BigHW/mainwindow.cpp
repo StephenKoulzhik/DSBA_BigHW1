@@ -119,8 +119,8 @@ void MainWindow::onTableViewCurrentChanged(QModelIndex next, QModelIndex hahaUse
 void MainWindow::on_filteringButton_clicked()
 {
     int filteringColumn = ui -> comboBox -> currentIndex();
-    sortingModel -> setFilterKeyColumn(filteringColumn);
-    sortingModel -> setFilterWildcard(ui -> lineEdit -> text());
+//    sortingModel -> setFilterKeyColumn(filteringColumn);
+//    sortingModel -> setFilterWildcard(ui -> lineEdit -> text());
 
     kusokgovna -> setFilterKeyColumn(filteringColumn);
     kusokgovna -> setFilterFixedString(ui -> lineEdit -> text());
@@ -159,6 +159,6 @@ void MainWindow::on_actionAbout_triggered()
     infoabout aboutwindow;
     aboutwindow.setModal(true); //Random Indian guy told me to write this line in his guide
 //    so I trusted him 'cause I can only trust Indian guys on Youtube when mastering this programm
-    //Hello guys Im under the water
+    //https://www.youtube.com/watch?v=z6-FWJteNLI
     aboutwindow.exec();
 }

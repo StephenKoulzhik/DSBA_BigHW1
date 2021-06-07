@@ -14,37 +14,50 @@
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
+#include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QVBoxLayout>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_infoabout
 {
 public:
+    QFrame *frameLogo;
     QGridLayout *gridLayout;
-    QFrame *frame;
+    QGroupBox *groupBox;
+    QVBoxLayout *verticalLayout;
     QLabel *label;
 
     void setupUi(QDialog *infoabout)
     {
         if (infoabout->objectName().isEmpty())
             infoabout->setObjectName(QString::fromUtf8("infoabout"));
-        infoabout->resize(800, 600);
-        gridLayout = new QGridLayout(infoabout);
+        infoabout->resize(600, 400);
+        infoabout->setMinimumSize(QSize(600, 400));
+        infoabout->setMaximumSize(QSize(600, 400));
+        frameLogo = new QFrame(infoabout);
+        frameLogo->setObjectName(QString::fromUtf8("frameLogo"));
+        frameLogo->setGeometry(QRect(9, 9, 404, 350));
+        frameLogo->setMinimumSize(QSize(404, 350));
+        frameLogo->setFrameShape(QFrame::StyledPanel);
+        frameLogo->setFrameShadow(QFrame::Raised);
+        gridLayout = new QGridLayout(frameLogo);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        frame = new QFrame(infoabout);
-        frame->setObjectName(QString::fromUtf8("frame"));
-        frame->setFrameShape(QFrame::StyledPanel);
-        frame->setFrameShadow(QFrame::Raised);
-        label = new QLabel(frame);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(640, 550, 141, 20));
+        groupBox = new QGroupBox(infoabout);
+        groupBox->setObjectName(QString::fromUtf8("groupBox"));
+        groupBox->setGeometry(QRect(420, 330, 171, 61));
         QFont font;
         font.setFamily(QString::fromUtf8("Comic Sans MS"));
         font.setPointSize(14);
+        groupBox->setFont(font);
+        verticalLayout = new QVBoxLayout(groupBox);
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        label = new QLabel(groupBox);
+        label->setObjectName(QString::fromUtf8("label"));
         label->setFont(font);
 
-        gridLayout->addWidget(frame, 2, 0, 1, 1);
+        verticalLayout->addWidget(label);
 
 
         retranslateUi(infoabout);
@@ -55,7 +68,8 @@ public:
     void retranslateUi(QDialog *infoabout)
     {
         infoabout->setWindowTitle(QCoreApplication::translate("infoabout", "Dialog", nullptr));
-        label->setText(QCoreApplication::translate("infoabout", "Studen ID: 155", nullptr));
+        groupBox->setTitle(QCoreApplication::translate("infoabout", "Info", nullptr));
+        label->setText(QCoreApplication::translate("infoabout", "Student ID : 155", nullptr));
     } // retranslateUi
 
 };

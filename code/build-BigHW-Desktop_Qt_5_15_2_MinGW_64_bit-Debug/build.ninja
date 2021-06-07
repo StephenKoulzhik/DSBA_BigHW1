@@ -91,6 +91,14 @@ build CMakeFiles/BigHW.dir/infoabout.cpp.obj: CXX_COMPILER__BigHW_Debug C$:/User
   OBJECT_DIR = CMakeFiles\BigHW.dir
   OBJECT_FILE_DIR = CMakeFiles\BigHW.dir
 
+build CMakeFiles/BigHW.dir/mylogo.cpp.obj: CXX_COMPILER__BigHW_Debug C$:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mylogo.cpp || cmake_object_order_depends_target_BigHW
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles\BigHW.dir\mylogo.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  INCLUDES = -I. -IC:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW -IBigHW_autogen/include -isystem C:/Qt/5.15.2/mingw81_64/include -isystem C:/Qt/5.15.2/mingw81_64/include/QtWidgets -isystem C:/Qt/5.15.2/mingw81_64/include/QtGui -isystem C:/Qt/5.15.2/mingw81_64/include/QtANGLE -isystem C:/Qt/5.15.2/mingw81_64/include/QtCore -isystem C:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\BigHW.dir
+  OBJECT_FILE_DIR = CMakeFiles\BigHW.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BigHW
@@ -99,7 +107,7 @@ build CMakeFiles/BigHW.dir/infoabout.cpp.obj: CXX_COMPILER__BigHW_Debug C$:/User
 #############################################
 # Link the executable BigHW.exe
 
-build BigHW.exe: CXX_EXECUTABLE_LINKER__BigHW_Debug CMakeFiles/BigHW.dir/BigHW_autogen/mocs_compilation.cpp.obj CMakeFiles/BigHW.dir/main.cpp.obj CMakeFiles/BigHW.dir/mainwindow.cpp.obj CMakeFiles/BigHW.dir/tablemodel.cpp.obj CMakeFiles/BigHW.dir/customfilter.cpp.obj CMakeFiles/BigHW.dir/infoabout.cpp.obj | C$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Gui.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a || BigHW_autogen BigHW_autogen_timestamp_deps
+build BigHW.exe: CXX_EXECUTABLE_LINKER__BigHW_Debug CMakeFiles/BigHW.dir/BigHW_autogen/mocs_compilation.cpp.obj CMakeFiles/BigHW.dir/main.cpp.obj CMakeFiles/BigHW.dir/mainwindow.cpp.obj CMakeFiles/BigHW.dir/tablemodel.cpp.obj CMakeFiles/BigHW.dir/customfilter.cpp.obj CMakeFiles/BigHW.dir/infoabout.cpp.obj CMakeFiles/BigHW.dir/mylogo.cpp.obj | C$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Gui.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a || BigHW_autogen BigHW_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = C:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a  C:/Qt/5.15.2/mingw81_64/lib/libQt5Gui.a  C:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BigHW.dir
@@ -159,7 +167,7 @@ build BigHW_autogen/timestamp: CUSTOM_COMMAND C$:/Qt/5.15.2/mingw81_64/bin/moc.e
 #############################################
 # Phony custom command for CMakeFiles\BigHW_autogen_timestamp_deps
 
-build CMakeFiles/BigHW_autogen_timestamp_deps: phony C$:/Qt/5.15.2/mingw81_64/bin/Qt5Widgets.dll C$:/Qt/5.15.2/mingw81_64/bin/uic.exe C$:/Qt/5.15.2/mingw81_64/bin/moc.exe
+build CMakeFiles/BigHW_autogen_timestamp_deps: phony C$:/Qt/5.15.2/mingw81_64/bin/moc.exe C$:/Qt/5.15.2/mingw81_64/bin/uic.exe C$:/Qt/5.15.2/mingw81_64/bin/Qt5Widgets.dll
 
 
 #############################################

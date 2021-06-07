@@ -90,6 +90,11 @@
 			"EWIEGA46WW/moc_mainwindow.cpp"
 		],
 		[
+			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mylogo.h",
+			"MU",
+			"EWIEGA46WW/moc_mylogo.cpp"
+		],
+		[
 			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/tablemodel.h",
 			"MU",
 			"EWIEGA46WW/moc_tablemodel.cpp"
@@ -161,6 +166,10 @@
 		],
 		[
 			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mainwindow.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/mylogo.cpp",
 			"MU"
 		],
 		[
