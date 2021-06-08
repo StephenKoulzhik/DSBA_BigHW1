@@ -88,7 +88,7 @@
              <string notr="true"/>
             </property>
             <property name="text">
-             <string>Remove</string>
+             <string>Delete</string>
             </property>
            </widget>
           </item>

@@ -78,7 +78,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->tableView->selectionModel(),
             SIGNAL(currentChanged(QModelIndex,QModelIndex)),
             this,
-            SLOT(onTableViewCurrentChanged(QModelndex,QModelIndex)));
+            SLOT(currentSelection(QModelndex,QModelIndex)));
 
 
 
@@ -94,7 +94,7 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::onTableViewCurrentChanged(QModelIndex next, QModelIndex hahaUselessGuy)
+void MainWindow::currentSelection(QModelIndex next, QModelIndex hahaUselessGuy)
 {
    int row = sortingModel->mapToSource(next).row();
    ui->listView->setModelColumn(row);

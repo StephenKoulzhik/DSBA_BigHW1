@@ -22,7 +22,7 @@ public:
 private slots:
 
 
-    void onTableViewCurrentChanged(QModelIndex next, QModelIndex hahaUselessGuy);
+    void currentSelection(QModelIndex next, QModelIndex hahaUselessGuy);
 
     void on_filteringButton_clicked();
 

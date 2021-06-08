@@ -16,11 +16,8 @@ void MyLogo::paintEvent(QPaintEvent* event)
     // Greenish triangle
     qreal startPointX1 = 0.0;
     qreal startPointY1 = 0.0;
-
-
     qreal endPointX1   = 260.0;
     qreal endPointY1   = 111.0;
-
     qreal endPointX2   = 0.0;
     qreal endPointY2   = 300.0;
 
@@ -37,15 +34,10 @@ void MyLogo::paintEvent(QPaintEvent* event)
     //Blueish triangle
      startPointX1 = 0.0;
      startPointY1 = 0.0;
-
-
      endPointX1   = 206.4;
      endPointY1   = 150.0;
-
      endPointX2   = 0.0;
-    endPointY2   = 300.0;
-
-
+     endPointY2   = 300.0;
 
     path.moveTo (startPointX1, startPointY1);
     path.lineTo (endPointX1, endPointY1);
@@ -59,14 +51,10 @@ void MyLogo::paintEvent(QPaintEvent* event)
     //Redish
     startPointX1 = 0.0;
     startPointY1 = 300.0;
-
-
     endPointX1   = 206.4;
     endPointY1   = 150.0;
-
     endPointX2   = 260.0;
     endPointY2   = 189.0;
-
 
     path2.moveTo (startPointX1, startPointY1);
     path2.lineTo (endPointX1, endPointY1);
@@ -80,17 +68,12 @@ void MyLogo::paintEvent(QPaintEvent* event)
 
     qreal finalPointX = 350;
     qreal finalPointY = 150;
-
     startPointX1 = 206.4;
     startPointY1 = 150.0;
-
-
     endPointX1   = 260.0;
     endPointY1   = 111.0;
-
     endPointX2   = 260.0;
     endPointY2   = 189.0;
-
     path3.moveTo(endPointX2, endPointY2);
     path3.lineTo(startPointX1, startPointY1);
     path3.lineTo(endPointX1, endPointY1);
