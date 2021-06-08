@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "gameStructure.h"
 #include "infoabout.h"
 #include <QFile>
 #include <QTextStream>
@@ -22,7 +21,7 @@ void fillTable(tablemodel* myModel, QString path)
         line = input.readLine();
         QList<QVariant> anotherRow;
         int counter = 0;
-        //At this point I've established the fact that QVariant is absolutely useless piece of QtClass or whatever I'm not a nerd fuck off.
+        //
         for (QString& x: line.split('|'))
         {
             bool convertable = false;
@@ -44,12 +43,6 @@ void fillTable(tablemodel* myModel, QString path)
             }
             counter++;
 
-//            if (counter <= 4 || counter == 7 || counter == 9)
-//            {
-
-//                anotherRow.append(x);
-//                counter++;
-//            }
         }
         myModel -> addRow(anotherRow);
     }
@@ -67,9 +60,6 @@ MainWindow::MainWindow(QWidget *parent)
     myTableModel = new tablemodel(this);
     ui->tableView->setModel(myTableModel);
     fillTable(myTableModel, path);
-
-    transposeModel = new QTransposeProxyModel(this);
-    transposeModel -> setSourceModel(myTableModel);
 
     sortingModel = new QSortFilterProxyModel(this);
     sortingModel -> setSourceModel(myTableModel);
@@ -92,38 +82,31 @@ MainWindow::MainWindow(QWidget *parent)
 
 
 
-    ui -> comboBox -> addItems({"Rank", "Title", "Total number \nof Ratings", "Install\nMilestone", "Rating", "Price", "Perfect Scores"});
+    ui -> comboBox -> addItems({"Rank", "Title", "Total number of Ratings", "Install Milestone", "Average Rating", "Price", "Perfect Scores"});
 
-    kusokgovna = new customFilterModel(this);
-    kusokgovna -> setSourceModel(myTableModel);
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
     delete myTableModel;
-    delete transposeModel;
     delete sortingModel;
 }
 
-//adding to favourite list
 
 void MainWindow::onTableViewCurrentChanged(QModelIndex next, QModelIndex hahaUselessGuy)
 {
    int row = sortingModel->mapToSource(next).row();
    ui->listView->setModelColumn(row);
-
 }
 
 
 void MainWindow::on_filteringButton_clicked()
 {
     int filteringColumn = ui -> comboBox -> currentIndex();
-//    sortingModel -> setFilterKeyColumn(filteringColumn);
-//    sortingModel -> setFilterWildcard(ui -> lineEdit -> text());
+    sortingModel -> setFilterKeyColumn(filteringColumn);
+    sortingModel -> setFilterFixedString(ui -> lineEdit -> text());
 
-    kusokgovna -> setFilterKeyColumn(filteringColumn);
-    kusokgovna -> setFilterFixedString(ui -> lineEdit -> text());
 }
 
 void MainWindow::on_addButton_clicked()
@@ -136,7 +119,6 @@ void MainWindow::on_addButton_clicked()
     }
 
 }
-
 
 void MainWindow::on_removeButton_clicked()
 {

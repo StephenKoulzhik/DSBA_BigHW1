@@ -11,7 +11,7 @@ MyLogo::MyLogo(QWidget *parent)
 void MyLogo::paintEvent(QPaintEvent* event)
 {
     QPainter painter(this);
-        QPainterPath path, path1, path2, path3;
+    QPainterPath path, path1, path2, path3;
 
     // Greenish triangle
     qreal startPointX1 = 0.0;
@@ -24,7 +24,7 @@ void MyLogo::paintEvent(QPaintEvent* event)
     qreal endPointX2   = 0.0;
     qreal endPointY2   = 300.0;
 
-
+    //Creating path that would be then filled with certain color
     path1.moveTo (startPointX1, startPointY1);
     path1.lineTo (endPointX1, endPointY1);
     path1.lineTo (endPointX2, endPointY2);

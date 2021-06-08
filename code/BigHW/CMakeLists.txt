@@ -32,7 +32,6 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        gameStructure.h
         tablemodel.h
         tablemodel.cpp
         customfilter.h

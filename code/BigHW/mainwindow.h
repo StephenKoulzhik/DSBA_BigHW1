@@ -37,11 +37,9 @@ private slots:
 private:
     Ui::MainWindow *ui;
     tablemodel *myTableModel;
-    const QModelIndex currentSelection;
     tablemodel *favList;
 
-    QTransposeProxyModel *transposeModel;
     QSortFilterProxyModel *sortingModel;
-    customFilterModel *kusokgovna;
+
 };
 #endif // MAINWINDOW_H

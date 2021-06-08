@@ -75,11 +75,6 @@
 			"EWIEGA46WW/moc_customfilter.cpp"
 		],
 		[
-			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/gameStructure.h",
-			"MU",
-			"EWIEGA46WW/moc_gameStructure.cpp"
-		],
-		[
 			"C:/Users/steph/Documents/GitHub/DSBA_BigHW1/code/BigHW/infoabout.h",
 			"MU",
 			"EWIEGA46WW/moc_infoabout.cpp"

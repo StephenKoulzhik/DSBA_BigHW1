@@ -1,0 +1,15 @@
+# ninja log v5
+7	179	6448511213026551	BigHW_autogen/timestamp	5cc4c3b2327e9d64
+3	755	6448511208937293	build.ninja	b0fda11862f373be
+701	3985	6434703109101106	CMakeFiles/ModelView.dir/mainwindow.cpp.obj	9a991622959699b6
+648	2901	6448504516959639	CMakeFiles/BigHW.dir/main.cpp.obj	bee34caeea4729b
+650	2943	6448504517418906	CMakeFiles/BigHW.dir/BigHW_autogen/mocs_compilation.cpp.obj	92c946e2fe10d6fc
+135	2977	6434706093482274	CMakeFiles/ModelView.dir/ModelView_autogen/mocs_compilation.cpp.obj	7af578dd4a1e0b41
+652	3616	6448504524272913	CMakeFiles/BigHW.dir/mainwindow.cpp.obj	253b217742573c16
+3617	4326	6448504531321611	BigHW.exe	ec8ca7eaa31037a3
+700	4035	6434703109640243	CMakeFiles/ModelView.dir/main.cpp.obj	8696cefbaab49d2d
+10	135	6434706065022917	ModelView_autogen/timestamp	62996bfcd7d32f89
+1145	5269	6447854147948863	CMakeFiles/BigHW.dir/tablemodel.cpp.obj	18691ef53251833c
+646	3108	6447862567459378	CMakeFiles/BigHW.dir/customfilter.cpp.obj	dab10a173d26479b
+22	2800	6447810264038048	CMakeFiles/BigHW.dir/infoabout.cpp.obj	bbd18fe813f1506
+1147	5053	6447854145737411	CMakeFiles/BigHW.dir/mylogo.cpp.obj	c99474162a6ea7fb

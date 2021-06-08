@@ -1,4 +1,4 @@
-#ifndef TABLEMODEL_H
+    #ifndef TABLEMODEL_H
 #define TABLEMODEL_H
 
 #include <QVariant>
@@ -20,8 +20,6 @@ public:
     void deleteRow(int index);
     void download(QString path);
 
-//    bool setData(const QModelIndex &index, const QVariant &value, int role = Qt::EditRole) override;
-//    Qt::ItemFlags flags(const QModelIndex &index) const override;
 
 
 private:

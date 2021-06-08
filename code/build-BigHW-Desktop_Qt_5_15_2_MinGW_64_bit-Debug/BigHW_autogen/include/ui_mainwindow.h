@@ -38,26 +38,25 @@ public:
     QGridLayout *gridLayout;
     QFrame *frame;
     QGridLayout *gridLayout_2;
-    QPushButton *helpButton;
-    QLabel *label_2;
-    QLineEdit *lineEdit;
     QLabel *label;
-    QFrame *frame_3;
-    QGridLayout *gridLayout_4;
-    QSpacerItem *horizontalSpacer;
-    QPushButton *downloadButton;
-    QSpacerItem *horizontalSpacer_2;
-    QTableView *tableView;
-    QLabel *label_3;
     QComboBox *comboBox;
+    QPushButton *filteringButton;
     QFrame *frame_2;
     QGridLayout *gridLayout_3;
     QPushButton *addButton;
     QSpacerItem *verticalSpacer;
     QPushButton *removeButton;
     QSpacerItem *verticalSpacer_2;
-    QPushButton *filteringButton;
+    QLabel *label_3;
+    QLabel *label_2;
+    QFrame *frame_3;
+    QGridLayout *gridLayout_4;
+    QSpacerItem *horizontalSpacer;
+    QPushButton *downloadButton;
+    QSpacerItem *horizontalSpacer_2;
     QListView *listView;
+    QTableView *tableView;
+    QLineEdit *lineEdit;
     QMenuBar *menubar;
     QMenu *menuHelp;
     QStatusBar *statusbar;
@@ -80,78 +79,25 @@ public:
         frame->setFrameShadow(QFrame::Raised);
         gridLayout_2 = new QGridLayout(frame);
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
-        helpButton = new QPushButton(frame);
-        helpButton->setObjectName(QString::fromUtf8("helpButton"));
-        helpButton->setEnabled(true);
-
-        gridLayout_2->addWidget(helpButton, 8, 4, 1, 1);
-
-        label_2 = new QLabel(frame);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
-        QFont font;
-        font.setFamily(QString::fromUtf8("Microsoft Tai Le"));
-        font.setPointSize(20);
-        label_2->setFont(font);
-        label_2->setAutoFillBackground(true);
-
-        gridLayout_2->addWidget(label_2, 1, 3, 1, 1);
-
-        lineEdit = new QLineEdit(frame);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-
-        gridLayout_2->addWidget(lineEdit, 7, 1, 1, 1);
-
         label = new QLabel(frame);
         label->setObjectName(QString::fromUtf8("label"));
-        QFont font1;
-        font1.setFamily(QString::fromUtf8("Microsoft New Tai Lue"));
-        font1.setPointSize(20);
-        label->setFont(font1);
+        QFont font;
+        font.setFamily(QString::fromUtf8("Microsoft New Tai Lue"));
+        font.setPointSize(20);
+        label->setFont(font);
         label->setAutoFillBackground(true);
 
         gridLayout_2->addWidget(label, 1, 1, 1, 1);
-
-        frame_3 = new QFrame(frame);
-        frame_3->setObjectName(QString::fromUtf8("frame_3"));
-        frame_3->setFrameShape(QFrame::StyledPanel);
-        frame_3->setFrameShadow(QFrame::Raised);
-        gridLayout_4 = new QGridLayout(frame_3);
-        gridLayout_4->setObjectName(QString::fromUtf8("gridLayout_4"));
-        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        gridLayout_4->addItem(horizontalSpacer, 0, 0, 1, 1);
-
-        downloadButton = new QPushButton(frame_3);
-        downloadButton->setObjectName(QString::fromUtf8("downloadButton"));
-
-        gridLayout_4->addWidget(downloadButton, 0, 1, 1, 1);
-
-        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        gridLayout_4->addItem(horizontalSpacer_2, 0, 2, 1, 1);
-
-
-        gridLayout_2->addWidget(frame_3, 4, 3, 1, 1);
-
-        tableView = new QTableView(frame);
-        tableView->setObjectName(QString::fromUtf8("tableView"));
-
-        gridLayout_2->addWidget(tableView, 3, 1, 1, 1);
-
-        label_3 = new QLabel(frame);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-        QFont font2;
-        font2.setFamily(QString::fromUtf8("Microsoft Tai Le"));
-        font2.setPointSize(14);
-        label_3->setFont(font2);
-        label_3->setAutoFillBackground(true);
-
-        gridLayout_2->addWidget(label_3, 4, 1, 1, 1);
 
         comboBox = new QComboBox(frame);
         comboBox->setObjectName(QString::fromUtf8("comboBox"));
 
         gridLayout_2->addWidget(comboBox, 5, 1, 1, 1);
+
+        filteringButton = new QPushButton(frame);
+        filteringButton->setObjectName(QString::fromUtf8("filteringButton"));
+
+        gridLayout_2->addWidget(filteringButton, 7, 2, 1, 1);
 
         frame_2 = new QFrame(frame);
         frame_2->setObjectName(QString::fromUtf8("frame_2"));
@@ -181,16 +127,63 @@ public:
 
         gridLayout_2->addWidget(frame_2, 3, 2, 1, 1);
 
-        filteringButton = new QPushButton(frame);
-        filteringButton->setObjectName(QString::fromUtf8("filteringButton"));
+        label_3 = new QLabel(frame);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        QFont font1;
+        font1.setFamily(QString::fromUtf8("Microsoft Tai Le"));
+        font1.setPointSize(14);
+        label_3->setFont(font1);
+        label_3->setAutoFillBackground(true);
 
-        gridLayout_2->addWidget(filteringButton, 7, 2, 1, 1);
+        gridLayout_2->addWidget(label_3, 4, 1, 1, 1);
+
+        label_2 = new QLabel(frame);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        QFont font2;
+        font2.setFamily(QString::fromUtf8("Microsoft Tai Le"));
+        font2.setPointSize(20);
+        label_2->setFont(font2);
+        label_2->setAutoFillBackground(true);
+
+        gridLayout_2->addWidget(label_2, 1, 3, 1, 1);
+
+        frame_3 = new QFrame(frame);
+        frame_3->setObjectName(QString::fromUtf8("frame_3"));
+        frame_3->setFrameShape(QFrame::StyledPanel);
+        frame_3->setFrameShadow(QFrame::Raised);
+        gridLayout_4 = new QGridLayout(frame_3);
+        gridLayout_4->setObjectName(QString::fromUtf8("gridLayout_4"));
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout_4->addItem(horizontalSpacer, 0, 0, 1, 1);
+
+        downloadButton = new QPushButton(frame_3);
+        downloadButton->setObjectName(QString::fromUtf8("downloadButton"));
+
+        gridLayout_4->addWidget(downloadButton, 0, 1, 1, 1);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout_4->addItem(horizontalSpacer_2, 0, 2, 1, 1);
+
+
+        gridLayout_2->addWidget(frame_3, 4, 3, 1, 1);
 
         listView = new QListView(frame);
         listView->setObjectName(QString::fromUtf8("listView"));
         listView->setMaximumSize(QSize(16777215, 16777215));
 
         gridLayout_2->addWidget(listView, 3, 3, 1, 1);
+
+        tableView = new QTableView(frame);
+        tableView->setObjectName(QString::fromUtf8("tableView"));
+
+        gridLayout_2->addWidget(tableView, 3, 1, 1, 1);
+
+        lineEdit = new QLineEdit(frame);
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+
+        gridLayout_2->addWidget(lineEdit, 7, 1, 1, 1);
 
 
         gridLayout->addWidget(frame, 6, 3, 1, 1);
@@ -218,14 +211,13 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         actionAbout->setText(QCoreApplication::translate("MainWindow", "About", nullptr));
-        helpButton->setText(QCoreApplication::translate("MainWindow", "HELP", nullptr));
-        label_2->setText(QCoreApplication::translate("MainWindow", "Featured Games", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "All games", nullptr));
-        downloadButton->setText(QCoreApplication::translate("MainWindow", "Download", nullptr));
-        label_3->setText(QCoreApplication::translate("MainWindow", "Choose sorting category", nullptr));
+        filteringButton->setText(QCoreApplication::translate("MainWindow", "Filter", nullptr));
         addButton->setText(QCoreApplication::translate("MainWindow", "Add", nullptr));
         removeButton->setText(QCoreApplication::translate("MainWindow", "Remove", nullptr));
-        filteringButton->setText(QCoreApplication::translate("MainWindow", "Filter", nullptr));
+        label_3->setText(QCoreApplication::translate("MainWindow", "Choose sorting category", nullptr));
+        label_2->setText(QCoreApplication::translate("MainWindow", "Featured Games", nullptr));
+        downloadButton->setText(QCoreApplication::translate("MainWindow", "Download", nullptr));
         menuHelp->setTitle(QCoreApplication::translate("MainWindow", "Help", nullptr));
     } // retranslateUi
 

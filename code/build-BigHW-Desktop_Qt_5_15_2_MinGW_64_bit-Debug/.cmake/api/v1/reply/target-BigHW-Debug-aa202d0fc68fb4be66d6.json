@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 57,
+				"line" : 56,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 63,
+				"line" : 62,
 				"parent" : 0
 			}
 		]
@@ -123,10 +123,10 @@
 				0,
 				1,
 				2,
-				7,
+				6,
+				8,
 				9,
-				10,
-				14
+				13
 			]
 		}
 	],
@@ -189,10 +189,10 @@
 				0,
 				1,
 				2,
-				7,
+				6,
+				8,
 				9,
-				10,
-				14
+				13
 			]
 		},
 		{
@@ -201,10 +201,9 @@
 			[
 				3,
 				5,
-				6,
-				8,
-				11,
-				13
+				7,
+				10,
+				12
 			]
 		},
 		{
@@ -212,15 +211,15 @@
 			"sourceIndexes" : 
 			[
 				4,
-				12,
-				15
+				11,
+				14
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				16
+				15
 			]
 		}
 	],
@@ -254,11 +253,6 @@
 			"backtrace" : 1,
 			"path" : "mainwindow.ui",
 			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "gameStructure.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
