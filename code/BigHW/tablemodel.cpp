@@ -51,10 +51,10 @@ QVariant tablemodel::data(const QModelIndex &index, int role) const
     int row = index.row();
     int column = index.column();
 
-    if (role == Qt::DisplayRole || role == Qt::EditRole)
+    if (role == Qt::DisplayRole)
         return Data.at(row).at(column);
     else if (role == Qt::BackgroundRole)
-        return QBrush(Qt::white);
+        return QBrush(Qt::gray);
 
     return QVariant();
 }
@@ -92,7 +92,7 @@ void tablemodel::download(QString path)
 
     for (int i = 0; i < rowCount(); ++i)
     {
-        for (QVariant x : Data[i])
+        for (QVariant& x : Data[i])
         {
             write << x.toString()<<',';
         }
