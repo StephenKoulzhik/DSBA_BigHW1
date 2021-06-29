@@ -21,6 +21,9 @@ public:
 
 private slots:
 
+
+    void currentSelection(QModelIndex next, QModelIndex hahaUselessGuy);
+
     void on_filteringButton_clicked();
 
     void on_addButton_clicked();
@@ -31,9 +34,9 @@ private slots:
 
     void on_actionAbout_triggered();
 
-    void on_checkBox_stateChanged(int arg1);
-
     void on_pushButton_clicked();
+
+    void on_checkBox_stateChanged(int arg1);
 
 private:
     Ui::MainWindow *ui;

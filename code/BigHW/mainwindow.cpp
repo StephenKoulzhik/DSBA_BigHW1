@@ -94,7 +94,11 @@ MainWindow::~MainWindow()
 }
 
 
-
+void MainWindow::currentSelection(QModelIndex next, QModelIndex hahaUselessGuy)
+{
+   int row = sortingModel->mapToSource(next).row();
+   ui->listView->setModelColumn(row);
+}
 
 
 void MainWindow::on_filteringButton_clicked()
@@ -141,60 +145,60 @@ void MainWindow::on_actionAbout_triggered()
     aboutwindow.exec();
 }
 
-void MainWindow::on_checkBox_stateChanged(int arg1)
-{
-    if (arg1)
-       {
-           whishListTableModel = new tablemodel(this);
-           for (QList<QVariant> x : favList->getData())
-           {
-               QVariant title = x[0];
-               for (QList<QVariant> y : myTableModel->getData())
-               {
-                   if (y[1] == title)
-                   {
-                     whishListTableModel->addRow(y);
-                   }
-               }
-
-           }
-           ui->tableView->setModel(whishListTableModel);
-           sortingModel = new QSortFilterProxyModel(this);
-           sortingModel -> setSourceModel(whishListTableModel);
-           sortingModel -> setFilterCaseSensitivity(Qt::CaseInsensitive);
-
-           ui -> tableView -> setModel(sortingModel);
-           ui -> tableView -> setSortingEnabled(true);
-       }
-       else
-       {
-           ui->tableView->setModel(myTableModel);
-           sortingModel = new QSortFilterProxyModel(this);
-           sortingModel -> setSourceModel(myTableModel);
-           sortingModel -> setFilterCaseSensitivity(Qt::CaseInsensitive);
-
-           ui -> tableView -> setModel(sortingModel);
-           ui -> tableView -> setSortingEnabled(true);
-       }
-}
-
 void MainWindow::on_pushButton_clicked()
 {
     QString path = QFileDialog::getOpenFileName(this);
-        QFile inputFile(path);
-        inputFile.open(QFile::ReadOnly);
-        QTextStream input(&inputFile);
+      QFile inputFile(path);
+      inputFile.open(QFile::ReadOnly);
+      QTextStream input(&inputFile);
 
-        favList = new tablemodel(this);
-        ui -> listView -> setModel(favList);
-        ui -> listView -> setModelColumn(1);
+      favList = new tablemodel(this);
+      ui -> listView -> setModel(favList);
+      ui -> listView -> setModelColumn(1);
 
-        while(!input.atEnd())
-        {
-            QString line = input.readLine();
-            QVariant title = line.split(',')[0];
-            favList -> addRow({title});
-        }
+      while(!input.atEnd())
+      {
+          QString line = input.readLine();
+          QVariant title = line.split(',')[0];
+          favList -> addRow({title});
+      }
 
-        inputFile.close();
+      inputFile.close();
+}
+
+void MainWindow::on_checkBox_stateChanged(int arg1)
+{
+    if (arg1)
+      {
+          whishListTableModel = new tablemodel(this);
+          for (QList<QVariant> x : favList->getData())
+          {
+              QVariant title = x[0];
+              for (QList<QVariant> y : myTableModel->getData())
+              {
+                  if (y[1] == title)
+                  {
+                    whishListTableModel->addRow(y);
+                  }
+              }
+
+          }
+          ui->tableView->setModel(whishListTableModel);
+          sortingModel = new QSortFilterProxyModel(this);
+          sortingModel -> setSourceModel(whishListTableModel);
+          sortingModel -> setFilterCaseSensitivity(Qt::CaseInsensitive);
+
+          ui -> tableView -> setModel(sortingModel);
+          ui -> tableView -> setSortingEnabled(true);
+      }
+      else
+      {
+          ui->tableView->setModel(myTableModel);
+          sortingModel = new QSortFilterProxyModel(this);
+          sortingModel -> setSourceModel(myTableModel);
+          sortingModel -> setFilterCaseSensitivity(Qt::CaseInsensitive);
+
+          ui -> tableView -> setModel(sortingModel);
+          ui -> tableView -> setSortingEnabled(true);
+      }
 }
