@@ -3,7 +3,9 @@
 
 #include <QMainWindow>
 #include "tablemodel.h"
-
+#include <QSortFilterProxyModel>
+#include "customfilter.h"
+#include <QListView>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -18,13 +20,29 @@ public:
 
 private slots:
 
-    int on_tableView_clicked(const QModelIndex &index);
 
-    void on_helpButton_clicked();
+
+    void on_filteringButton_clicked();
+
+    void on_addButton_clicked();
+
+    void on_removeButton_clicked();
+
+    void on_downloadButton_clicked();
+
+    void on_actionAbout_triggered();
+
+    void on_pushButton_2_clicked();
+
+
+    void on_checkBox_stateChanged(int arg1);
 
 private:
     Ui::MainWindow *ui;
-    tablemodel *myTableModel;
-    QModelIndex index;
+    tablemodel *myTableModel, *whishListTableModel;
+    tablemodel *favList;
+
+    QSortFilterProxyModel *sortingModel;
+
 };
 #endif // MAINWINDOW_H
