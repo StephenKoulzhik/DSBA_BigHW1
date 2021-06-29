@@ -3,6 +3,10 @@
 
 #include <QMainWindow>
 #include "tablemodel.h"
+
+
+#include <QTransposeProxyModel>
+
 #include <QSortFilterProxyModel>
 #include "customfilter.h"
 #include <QListView>
@@ -22,6 +26,10 @@ private slots:
 
 
 
+
+    void currentSelection(QModelIndex next, QModelIndex hahaUselessGuy);
+
+
     void on_filteringButton_clicked();
 
     void on_addButton_clicked();
@@ -32,6 +40,7 @@ private slots:
 
     void on_actionAbout_triggered();
 
+
     void on_pushButton_2_clicked();
 
 
@@ -40,6 +49,12 @@ private slots:
 private:
     Ui::MainWindow *ui;
     tablemodel *myTableModel, *whishListTableModel;
+
+
+private:
+    Ui::MainWindow *ui;
+    tablemodel *myTableModel;
+
     tablemodel *favList;
 
     QSortFilterProxyModel *sortingModel;

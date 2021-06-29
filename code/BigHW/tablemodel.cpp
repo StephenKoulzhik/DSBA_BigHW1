@@ -51,10 +51,17 @@ QVariant tablemodel::data(const QModelIndex &index, int role) const
     int row = index.row();
     int column = index.column();
 
+
     if (role == Qt::DisplayRole)
         return Data.at(row).at(column);
     else if (role == Qt::BackgroundRole)
         return QBrush(Qt::gray);
+
+    if (role == Qt::DisplayRole || role == Qt::EditRole)
+        return Data.at(row).at(column);
+    else if (role == Qt::BackgroundRole)
+        return QBrush(Qt::white);
+
 
     return QVariant();
 }

@@ -6,8 +6,10 @@
 #include <QStandardItemModel>
 #include <QString>
 #include <QFileDialog>
+
 #include <iostream>
 #include <QtDebug>
+
 void fillTable(tablemodel* myModel, QString path)
 {
     QFile inputFile(path);
@@ -57,6 +59,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    QString path = QFileDialog::getOpenFileName(this);
     ui->setupUi(this);
 
     QString path = QFileDialog::getOpenFileName(this);
@@ -77,6 +80,15 @@ MainWindow::MainWindow(QWidget *parent)
     ui -> listView -> setModel(favList);
     ui -> listView -> setModelColumn(1);
 
+
+
+    connect(ui->tableView->selectionModel(),
+            SIGNAL(currentChanged(QModelIndex,QModelIndex)),
+            this,
+            SLOT(currentSelection(QModelndex,QModelIndex)));
+
+
+
     ui -> comboBox -> addItems({"Rank", "Title", "Total number of Ratings", "Install Milestone", "Average Rating", "Price", "Perfect Scores"});
 
 }
@@ -87,6 +99,7 @@ MainWindow::~MainWindow()
     delete myTableModel;
     delete sortingModel;
 }
+
 
 
 
@@ -134,6 +147,31 @@ void MainWindow::on_actionAbout_triggered()
     aboutwindow.exec();
 }
 
+void MainWindow::currentSelection(QModelIndex next, QModelIndex hahaUselessGuy)
+{
+   int row = sortingModel->mapToSource(next).row();
+   ui->listView->setModelColumn(row);
+}
+
+
+
+void MainWindow::on_filteringButton_clicked()
+{
+    int filteringColumn = ui -> comboBox -> currentIndex();
+    sortingModel -> setFilterKeyColumn(filteringColumn);
+    sortingModel -> setFilterFixedString(ui -> lineEdit -> text());
+
+}
+
+void MainWindow::on_addButton_clicked()
+{
+    QModelIndexList list = ui -> tableView -> selectionModel() -> selectedIndexes();
+    if (!list.isEmpty())
+    {
+        QList<QVariant> extra = myTableModel->getData()[sortingModel -> mapToSource(list[0]).row()];
+        favList->addRow({extra[1]});
+    }
+
 
 
 void MainWindow::on_pushButton_2_clicked()
@@ -155,6 +193,23 @@ void MainWindow::on_pushButton_2_clicked()
     }
 
     inputFile.close();
+
+}
+
+void MainWindow::on_removeButton_clicked()
+{
+    QModelIndexList list = ui -> listView -> selectionModel() -> selectedIndexes();
+    if (!list.isEmpty())
+    {
+        favList->deleteRow(list.first().row());
+    }
+
+}
+
+void MainWindow::on_downloadButton_clicked()
+{
+    QString path = QFileDialog::getSaveFileName(this);
+    favList -> download(path);
 }
 
 
@@ -194,4 +249,12 @@ void MainWindow::on_checkBox_stateChanged(int arg1)
         ui -> tableView -> setModel(sortingModel);
         ui -> tableView -> setSortingEnabled(true);
     }
+void MainWindow::on_actionAbout_triggered()
+{
+    infoabout aboutwindow;
+    aboutwindow.setModal(true); //Random Indian guy told me to write this line in his guide
+//    so I trusted him 'cause I can only trust Indian guys on Youtube when mastering this programm
+    //https://www.youtube.com/watch?v=z6-FWJteNLI
+    aboutwindow.exec();
+
 }
